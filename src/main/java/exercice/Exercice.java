@@ -59,12 +59,6 @@ public class Exercice {
     }
 
     public static boolean estPresent(String mots, char lettres) {
-        String mot = mots;
-        char lettre = mot.charAt(0);
-
-        if (lettre == lettres) {
-            return true;
-        }
-        return false;
+        return mots.charAt(0) == lettres;
     }
 }
