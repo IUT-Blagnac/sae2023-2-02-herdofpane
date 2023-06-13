@@ -17,270 +17,207 @@ public class Exercice {
             lettreCourante = str.charAt(i);
             if (lettreCourante.equals('a')) {
                 estLettreValide = true;
-                 
-            }
-            else if (lettreCourante.equals('A')) {
+
+            } else if (lettreCourante.equals('A')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('b')) {
+
+            } else if (lettreCourante.equals('b')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('B')) {
+
+            } else if (lettreCourante.equals('B')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('c')) {
+
+            } else if (lettreCourante.equals('c')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('C')) {
+
+            } else if (lettreCourante.equals('C')) {
                 estLettreValide = true;
-             
+
             }
 
             else if (lettreCourante.equals('d')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('D')) {
+
+            } else if (lettreCourante.equals('D')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('e')) {
+
+            } else if (lettreCourante.equals('e')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('E')) {
+
+            } else if (lettreCourante.equals('E')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('f')) {
+
+            } else if (lettreCourante.equals('f')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('F')) {
+
+            } else if (lettreCourante.equals('F')) {
                 estLettreValide = true;
-                
-             
-            }
-            else if (lettreCourante.equals('g')) {
+
+            } else if (lettreCourante.equals('g')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('G')) {
+
+            } else if (lettreCourante.equals('G')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('h')) {
+
+            } else if (lettreCourante.equals('h')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('H')) {
+
+            } else if (lettreCourante.equals('H')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('i')) {
+
+            } else if (lettreCourante.equals('i')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('I')) {
+
+            } else if (lettreCourante.equals('I')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('j')) {
+
+            } else if (lettreCourante.equals('j')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('J')) {
+
+            } else if (lettreCourante.equals('J')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('k')) {
+
+            } else if (lettreCourante.equals('k')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('K')) {
+
+            } else if (lettreCourante.equals('K')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('l')) {
+
+            } else if (lettreCourante.equals('l')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('L')) {
+
+            } else if (lettreCourante.equals('L')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('m')) {
+
+            } else if (lettreCourante.equals('m')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('M')) {
+
+            } else if (lettreCourante.equals('M')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('n')) {
+
+            } else if (lettreCourante.equals('n')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('N')) {
+
+            } else if (lettreCourante.equals('N')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('o')) {
+
+            } else if (lettreCourante.equals('o')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('O')) {
+
+            } else if (lettreCourante.equals('O')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('p')) {
+
+            } else if (lettreCourante.equals('p')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('P')) {
+
+            } else if (lettreCourante.equals('P')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('q')) {
+
+            } else if (lettreCourante.equals('q')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('Q')) {
+
+            } else if (lettreCourante.equals('Q')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('r')) {
+
+            } else if (lettreCourante.equals('r')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('R')) {
+
+            } else if (lettreCourante.equals('R')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('s')) {
+
+            } else if (lettreCourante.equals('s')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('S')) {
+
+            } else if (lettreCourante.equals('S')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('t')) {
+
+            } else if (lettreCourante.equals('t')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('T')) {
+
+            } else if (lettreCourante.equals('T')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('u')) {
+
+            } else if (lettreCourante.equals('u')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('U')) {
+
+            } else if (lettreCourante.equals('U')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('v')) {
+
+            } else if (lettreCourante.equals('v')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('V')) {
+
+            } else if (lettreCourante.equals('V')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('w')) {
+
+            } else if (lettreCourante.equals('w')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('W')) {
+
+            } else if (lettreCourante.equals('W')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('x')) {
+
+            } else if (lettreCourante.equals('x')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('X')) {
+
+            } else if (lettreCourante.equals('X')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('y')) {
+
+            } else if (lettreCourante.equals('y')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('Y')) {
+
+            } else if (lettreCourante.equals('Y')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('z')) {
+
+            } else if (lettreCourante.equals('z')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('Z')) {
+
+            } else if (lettreCourante.equals('Z')) {
                 estLettreValide = true;
-             
+
             }
 
             else if (lettreCourante.equals('z')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('Z')) {
+
+            } else if (lettreCourante.equals('Z')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('0')) {
+
+            } else if (lettreCourante.equals('0')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('1')) {
+
+            } else if (lettreCourante.equals('1')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('2')) {
+
+            } else if (lettreCourante.equals('2')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('3')) {
+
+            } else if (lettreCourante.equals('3')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('4')) {
+
+            } else if (lettreCourante.equals('4')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('5')) {
+
+            } else if (lettreCourante.equals('5')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('6')) {
+
+            } else if (lettreCourante.equals('6')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('7')) {
+
+            } else if (lettreCourante.equals('7')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('8')) {
+
+            } else if (lettreCourante.equals('8')) {
                 estLettreValide = true;
-             
-            }
-            else if (lettreCourante.equals('9')) {
+
+            } else if (lettreCourante.equals('9')) {
                 estLettreValide = true;
-             
-            }
-            else {
+
+            } else {
                 estLettreValide = false;
-             
+
             }
             if (estLettreValide) {
                 mot = mot + lettreCourante;
-                estLettreValide = false;   
+                estLettreValide = false;
             } else if (!mot.isEmpty()) {
                 lstMots.add(mot);
                 mot = "";
@@ -317,4 +254,3 @@ public class Exercice {
         return lstMotsTries;
     }
 }
-

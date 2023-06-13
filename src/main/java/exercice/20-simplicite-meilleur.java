@@ -11,8 +11,9 @@ public class Exercice {
         // Liste qui va contenir le résultat
         List<String> result = new ArrayList<>();
 
-        // Tableau d’array list de string qui va permettre de stocker les mots dans le bon ordre
-        ArrayList<String>[] tab = new ArrayList[ordre.size()+1];
+        // Tableau d’array list de string qui va permettre de stocker les mots dans le
+        // bon ordre
+        ArrayList<String>[] tab = new ArrayList[ordre.size() + 1];
         // Initialise les array lists
         for (int i = 0; i < tab.length; i++) {
             tab[i] = new ArrayList<>();
@@ -21,11 +22,12 @@ public class Exercice {
         // Liste des mots qui ne commencent pas par un caractère de l’ordre
         List<String> notfound = new ArrayList<>();
         for (String s : splited) {
-            // vérifie si la première lettre du mot est dans l’ordre, si oui, on l’ajoute a la liste correspondante
+            // vérifie si la première lettre du mot est dans l’ordre, si oui, on l’ajoute a
+            // la liste correspondante
             // Si il n’y est pas, on l’ajoute a la liste des mots qui ne sont pas ordonné
-            if (ordre.contains(s.charAt(0))){
+            if (ordre.contains(s.charAt(0))) {
                 tab[ordre.indexOf(s.charAt(0))].add(s);
-            }else{
+            } else {
                 notfound.add(s);
             }
         }
