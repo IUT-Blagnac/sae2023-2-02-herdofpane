@@ -18,17 +18,17 @@ public class Exercice {
 				constructMots.setLength(0);
 			}
 		}
-		
+
 		if (constructMots.length() > 0) {
-			motsRestants.add(constructMots.toString()); //Ajouter les mots sans lettres dans ordre
+			motsRestants.add(constructMots.toString()); // Ajouter les mots sans lettres dans ordre
 		}
 
-		List<String> motsASupprimer = new ArrayList<>(); 
+		List<String> motsASupprimer = new ArrayList<>();
 
 		for (int i = 0; i < ordre.size(); i++) {
-            char ch = ordre.get(i);
-            for (int j = 0; j < motsRestants.size(); j++) {
-            	String mot = motsRestants.get(j);
+			char ch = ordre.get(i);
+			for (int j = 0; j < motsRestants.size(); j++) {
+				String mot = motsRestants.get(j);
 				if (Character.toLowerCase(mot.charAt(0)) == Character.toLowerCase(ch)) {
 					motsEnOrdre.add(mot);
 					motsRestants.remove(j);

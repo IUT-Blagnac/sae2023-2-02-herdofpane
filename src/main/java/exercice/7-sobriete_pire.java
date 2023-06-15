@@ -3,7 +3,7 @@ package exercice;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Exercice {
+public class sobriete_pire {
     public static List<String> solution(String str, List<Character> ordre) {
         List<String> result = new ArrayList<>();
 
