@@ -3,7 +3,7 @@ package exercice;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Exercicesobrietemeilleur {
+public class Exercice {
     public static List<String> solution(String str, List<Character> ordre) {
         List<String> motsTries = new ArrayList<>();
         String[] motsNonTries = str.split("[^a-zA-Z0-9]+");

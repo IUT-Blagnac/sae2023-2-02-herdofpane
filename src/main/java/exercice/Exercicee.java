@@ -3,7 +3,7 @@ package exercice;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Exercice {
+public class Exercicee {
     public static List<String> solution(String str, List<Character> ordre) {
         List<String> lstMots = new ArrayList<>();
         String mot = "";

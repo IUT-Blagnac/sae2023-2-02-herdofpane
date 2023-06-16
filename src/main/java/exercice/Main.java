@@ -4,25 +4,23 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        // long compteDebut = System.nanoTime();
+        long startTime = System.currentTimeMillis();
+
         String texte = "Il fait beau aujourd'hui comme en aout";
         List<Character> ordre = List.of('f', 'I', 'z', 'u', 'k', 'a', 'b', 'o');
-        // taille memoire
-        Runtime runtime = Runtime.getRuntime();
 
-        // tm
-        runtime.gc();
-        // temps exec
-        long startTime = System.currentTimeMillis();
         System.out.println(Exercicee.solution(texte, ordre));
-        // te
-        long endTime = System.currentTimeMillis();
-        long executionTime = endTime - startTime;
-        // tm
-        long usedMemory = runtime.totalMemory() - runtime.freeMemory();
-        long usedMemoryMB = usedMemory / (1024 * 1024);
 
-        System.out.println("Temps d'exécution : " + executionTime + " ms");
-        System.out.println("Mémoire utilisée : " + usedMemoryMB + " Mo");
+        long endTime = System.currentTimeMillis();
+        double executionTime = (endTime - startTime);
+
+        System.out.printf("Temps d'exécution : %.2f millisecondes%n", executionTime);
+
+        // long compteFin = System.nanoTime();
+        // long duree = compteFin - compteDebut;
+        // System.out.println("La duree d'execution est de : " + duree + " nano
+        // secondes");
 
         // ["fait", "Il", "aujourd", "aout", "beau", "hui", "comme", "en"]
     }
